@@ -1,11 +1,13 @@
 # My first python program
 """Control statements"""
 
-grade = 85
+# gender = 'male'
+# age = 20
 
-if grade >= 60:
-    print("Passed")
-else:
-    print("You failed")
+# if gender == 'male' and age == 20:
+#     print("you're a young man!")
 
+def square(number):
+    return number ** 2
 
+print(square(4))
