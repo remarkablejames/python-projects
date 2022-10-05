@@ -1,13 +1,12 @@
-# My first python program
-"""Control statements"""
+"""functions"""
+temp = "global"
+def sandbox():
+    print("in first function")
 
-# gender = 'male'
-# age = 20
+    def another():
+        print("one level deep",temp)
+    
+    return another
 
-# if gender == 'male' and age == 20:
-#     print("you're a young man!")
-
-def square(number):
-    return number ** 2
-
-print(square(4))
+sandbox()()
+    
